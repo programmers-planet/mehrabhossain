@@ -316,6 +316,7 @@ h3.title {
 .links {
     margin-top: 20px;
 }
+
 /* About Css start */
 
 .about-image img {
@@ -376,12 +377,14 @@ button.resume-btn:hover {
     margin-bottom: 13px;
     color: var(--primary-color);
 }
+
 /* Skill css */
 .pb-custom {
     background: #2b2f34;
     box-shadow: var(--shadow);
     height: 8px;
 }
+
 .progress-bar {
     background: #e70e51 !important;
     border-radius: 15px;
@@ -394,10 +397,12 @@ button.resume-btn:hover {
     display: inline-block;
     width: 90%;
 }
+
 .bar span {
     color: var(--white);
     font-size: 16px;
 }
+
 .bar {
     margin: 35px 0px;
 }
@@ -409,10 +414,12 @@ button.resume-btn:hover {
     border-radius: 10px;
     margin-bottom: 20px;
 }
+
 .my-skills h1 {
     font-size: 35px;
     margin: 50px 0px 30px;
 }
+
 /* About Css stop */
 
 .sec-title span {
@@ -579,6 +586,7 @@ ul.resume-nav-menu li {
     border-radius: 10px;
     color: var(--white);
 }
+
 /* experienece css start */
 .education {
     background: var(--main-bg);
@@ -586,18 +594,21 @@ ul.resume-nav-menu li {
     padding: 20px 20px;
     border-radius: 10px;
 }
+
 .job-ex {
     background: var(--main-bg);
     box-shadow: var(--shadow);
     padding: 20px 20px;
     border-radius: 10px;
 }
+
 .education h3 {
     color: var(--color-1);
     font-size: 20px;
     text-transform: uppercase;
     margin: 0px 0px 15px;
 }
+
 .job-ex h3 {
     color: var(--color-1);
     font-size: 20px;
@@ -609,11 +620,15 @@ ul.resume-nav-menu li {
     font-size: 15px;
     color: var(--white);
 }
+
 .job-ex p {
     font-size: 15px;
     color: var(--white);
 }
-.high-school, .collage, .versity{
+
+.high-school,
+.collage,
+.versity {
     margin: 0px 0px 30px;
 }
 
@@ -624,8 +639,9 @@ h2.edu-headline {
     text-align: center;
     margin: 0px 0px 18px;
 }
+
 /* Review section start */
-.client-info{
+.client-info {
     background: var(--bg);
     box-shadow: var(--shadow);
     text-align: center;
@@ -633,6 +649,7 @@ h2.edu-headline {
     overflow: hidden;
     border-radius: 15px;
 }
+
 .client-info img {
     width: 75%;
     border-radius: 10px;
@@ -653,6 +670,7 @@ h2.edu-headline {
     padding: 41px 49px;
     border-radius: 20px;
 }
+
 .star {
     background: var(--bg);
     box-shadow: var(--shadow);
@@ -675,13 +693,16 @@ h2.edu-headline {
     line-height: 32px;
     margin-top: 50px;
 }
-.review h2{
+
+.review h2 {
     margin-bottom: 32px;
 }
+
 .slick-initialized .slick-slide {
     display: flex;
     justify-content: center;
 }
+
 .slick-list {
     position: relative;
     display: block;
@@ -689,12 +710,15 @@ h2.edu-headline {
     padding: 0;
     overflow-x: clip !important;
 }
+
 .r-description {
     position: relative !important;
 }
-.s-wrapper{
+
+.s-wrapper {
     position: relative;
 }
+
 .r-description::before {
     content: "";
     position: absolute;
@@ -705,9 +729,11 @@ h2.edu-headline {
     top: -20px;
     left: -12px;
 }
-.client-wrapper{
+
+.client-wrapper {
     padding: 30px 0px;
 }
+
 i.slick-arrow {
     font-size: 25px;
     background: var(--main-bg);
@@ -716,21 +742,42 @@ i.slick-arrow {
     color: var(--color2);
     cursor: pointer;
     transition: .3s;
-  
+
 }
-i.slick-arrow:hover{
- background: var(--color-2);
- color: var(--main-bg);
+
+i.slick-arrow:hover {
+    background: var(--color-2);
+    color: var(--main-bg);
 }
-.right{
+
+.right {
     position: absolute;
     top: -38px;
     right: 58px;
 }
-.left{
+
+.left {
     position: absolute;
     top: -40px;
     right: 145px;
 }
 
 /* Review section stop */
+/* footer Css start  */
+#footer{
+    padding: 50px 0px;
+}
+
+.footer-links a {
+    display: block;
+    color: var(--color-2);
+    margin: 4px 0px;
+    transition: .3s;
+}
+
+.footer-links a:hover {
+    color: var(--color-1);
+}
+
+
+/* footer Css stop */
